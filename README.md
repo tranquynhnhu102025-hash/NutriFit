@@ -15,10 +15,12 @@ NutriFit là ứng dụng hỗ trợ người dùng theo dõi chế độ dinh d
 * Tương tác dữ liệu từ App Android thông qua API.
 
 ## 👥 Thành viên nhóm
-| STT | Họ và tên | MSSV | Vai trò |
+STT | Họ và tên | MSSV | Vai trò chính trong dự án |
 | :--- | :--- | :--- | :--- |
-| 1 | Trần Quỳnh Như | ... | Backend & Android Developer |
-
+| 1 | **Trần Quỳnh Như** | 2400008936 | **Leader**: Setup Base Code MVVM, Git, Ráp nối giao diện & Dữ liệu, Fix bug & Đóng gói APK |
+| 2 | **Nguyễn Ngọc Dũng** | [Điền MSSV] | **UI/UX & FE**: Chốt sơ đồ tính năng, Thiết kế Figma, Code giao diện XML/Jetpack Compose |
+| 3 | **Nguyễn Hoàng Duy** | [Điền MSSV] | **Database**: Thiết kế sơ đồ thực thể, cấu trúc bảng và cấu hình Room Database |
+| 4 | **Lên Minh Khoa** | [Điền MSSV] | **Logic Developer**: Viết ViewModel, xử lý thuật toán đếm Calo, cấu hình mã hóa bảo mật dữ liệu |
 ## 📦 Hướng dẫn cài đặt
 ### Backend:
 1. Mở thư mục `BE` trong Visual Studio Code.
