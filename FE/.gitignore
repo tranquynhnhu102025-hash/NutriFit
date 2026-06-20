@@ -13,3 +13,20 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+
+# Rác của C#
+bin/
+obj/
+.vs/
+
+# Rác của Android/Java
+.idea/
+.gradle/
+build/
+*.iml
+
+# Rác khác
+node_modules/
+*.js.map
