@@ -1,0 +1,67 @@
+@BE_HostAddress = http://localhost:5104
+
+### Lấy danh sách users
+GET {{BE_HostAddress}}/api/users
+Accept: application/json
+
+### Đăng ký user mới
+POST {{BE_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  "name": "Nguyen Van A",
+  "email": "vana@gmail.com",
+  "password": "123456"
+}
+
+### Đăng nhập
+POST {{BE_HostAddress}}/login
+Content-Type: application/json
+
+{
+  "email": "vana@gmail.com",
+  "password": "123456"
+}
+
+### Lấy danh sách thức ăn
+GET {{BE_HostAddress}}/food_dictionary
+Accept: application/json
+
+### Thêm thức ăn mới
+POST {{BE_HostAddress}}/food_dictionary
+Content-Type: application/json
+
+{
+  "foodName": "Cơm trắng",
+  "calories": 130
+}
+
+### Lấy nhật ký dinh dưỡng
+GET {{BE_HostAddress}}/nutrition_log
+Accept: application/json
+
+### Thêm nhật ký dinh dưỡng
+POST {{BE_HostAddress}}/nutrition_log
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "foodName": "Cơm trắng",
+  "calories": 130,
+  "logDate": "2026-06-24T12:00:00"
+}
+
+### Lấy kế hoạch tập luyện
+GET {{BE_HostAddress}}/workout_plan
+Accept: application/json
+
+### Thêm kế hoạch tập luyện
+POST {{BE_HostAddress}}/workout_plan
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "exerciseName": "Chạy bộ",
+  "duration": 30,
+  "planDate": "2026-06-24T07:00:00"
+}
