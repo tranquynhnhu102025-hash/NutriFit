@@ -12,6 +12,9 @@ namespace BE.Models
         [Column("user_id")]
         public int UserId { get; set; }
 
+        [ForeignKey("UserId")]
+        public User User { get; set; }
+
         [Column("food_name")]
         public string FoodName { get; set; }
 
